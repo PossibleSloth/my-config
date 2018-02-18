@@ -16,6 +16,15 @@ Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Airline config
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Turn on powerline to get fun effects, set theme to luna
+let g:airline_powerline_fonts = 1
+let g:airline_theme='luna'
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
